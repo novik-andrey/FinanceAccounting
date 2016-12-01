@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.github.sundeepk.compactcalendarview.CompactCalendarView;
+
 public class TransAddActivity extends AppCompatActivity {
 
     @Override
@@ -15,6 +17,9 @@ public class TransAddActivity extends AppCompatActivity {
         setContentView(R.layout.activity_trans_add);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        final CompactCalendarView compactCalendarView = (CompactCalendarView) findViewById(R.id.compactcalendar_view);
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
