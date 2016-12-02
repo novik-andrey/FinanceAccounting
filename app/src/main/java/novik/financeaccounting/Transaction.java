@@ -18,6 +18,5 @@ public class Transaction {
         this.month = month;
         this.year = year;
         this.sum = sum;
-//        this.wallet = Data.getInstance().getWalletByID(wallet_id);
     }
 }
