@@ -32,20 +32,6 @@
         android:layout_alignBottom="@+id/textView"
         android:layout_toEndOf="@+id/textView" />
 
-    <com.github.sundeepk.compactcalendarview.CompactCalendarView
-        android:id="@+id/compactcalendar_view"
-        android:layout_width="fill_parent"
-        android:paddingRight="10dp"
-        android:paddingLeft="10dp"
-        android:layout_height="235dp"
-        app:compactCalendarBackgroundColor="@color/colorPrimary"
-        app:compactCalendarCurrentDayBackgroundColor="#1a8cd7"
-        app:compactCalendarCurrentSelectedDayBackgroundColor="#FF4081"
-        app:compactCalendarTextColor="#FFF"
-        app:compactCalendarTextSize="12sp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -57,6 +43,19 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="31dp"
         android:layout_below="@+id/compactcalendar_view"
+        android:layout_alignParentStart="true" />
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+        android:id="@+id/compactcalendar_view"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="235dp"
+        app:compactCalendarBackgroundColor="@color/colorPrimary"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#FF4081"
+        app:compactCalendarTextColor="#FFF"
+        app:compactCalendarTextSize="12sp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
 
